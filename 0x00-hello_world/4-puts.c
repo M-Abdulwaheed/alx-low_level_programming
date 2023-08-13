@@ -3,12 +3,15 @@
 /**
  * main - main function print using put
  *
- * Return: 0 
+ * Return: always return 0
  *
  */
 
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	char output[] = "\"Programming is like building a multilingual puzzle";
+
+	puts(output);
+
 	return (0);
 }
