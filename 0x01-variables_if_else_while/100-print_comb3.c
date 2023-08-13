@@ -1,27 +1,28 @@
 #include <stdio.h>
 
 /**
- *main - main function
+ * main - main factor
  *
- * Return: Always return 0
+ * Return: always return 0
+ *
  */
 int main(void)
 {
-	int i;
-	int j;
+	int i, j;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 0; i <= 8; i++)
 	{
-		for (j = i + 1; j < 10 ; j++)
-			if (i != j)
+		for (j = i + 1; j <= 9; j++)
 		{
-			putchar (i + '0');
-			putchar (j + '0');
-			putchar (',');
-			putchar (' ');
+			putchar(i + '0');
+			putchar(j + '0');
+			if (i != 8 || j != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-			else
-			putchar ('\n');
 	}
+	putchar('\n');
 	return (0);
 }
