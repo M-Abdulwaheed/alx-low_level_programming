@@ -5,6 +5,7 @@
  *
  * Return: Always return 0 if successful
  *
+ * @i: values to be shecked
  */
 
 int print_last_digit(int i)
