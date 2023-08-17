@@ -4,11 +4,6 @@
  * jack_bauer - A function that prints every minutes of the day
  *
  * Return: Always return 0 if successful
- *
- * @i: one of the input to be analysed
- *
- * @j: the other input to be analysed
- *
  */
 void jack_bauer(void)
 {
