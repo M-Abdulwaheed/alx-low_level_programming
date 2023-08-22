@@ -5,6 +5,8 @@
  *
  * @i: parameter to be checked
  *
+ * @s: parameter character s to be checked
+ *
  * Return: Always return character
  */
 void print_rev(char *s)
@@ -14,7 +16,9 @@ void print_rev(char *s)
 
 	for (i = 0 ; s[i] != '\0' ; i++)
 		count++;
-	for (i = count - 1 ; i >= 0; i--)
-		_putchar(s[i]);
-	_putchar('\n');
+	{
+		for (i = count - 1 ; i >= 0; i--)
+			_putchar(s[i]);
+		_putchar('\n');
+	}
 }
