@@ -8,8 +8,11 @@
  * @b: second parameter to be checked
  *
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-	*a = b;
-	*b = a;
+	int c;
+
+	c = *a;
+	*a = *b;
+	*b = c;
 }
