@@ -1,16 +1,14 @@
 #include "main.h"
 /**
- * _puts - function to print string
- *
- * @i: parameter to be evaluated
- *
- * Retrun: Always return a character
+ * _puts - prints a string, followed by a new line, to stdout
+ * @str: string to print
  */
 void _puts(char *str)
 {
-	int i;
-
-	for (i = 0 ; str[i] != '\0' ; i++)
-		_putchar(str[i]);
+	while (*str != '\0')
+	{
+		_putchar(*str++);
+	}
 	_putchar('\n');
 }
+
