@@ -3,7 +3,8 @@
 
 /** 
  * main - check the code
- *
+ * @argc: number of argument count
+ * @argv: number of argument vector
  * Return: Alway return 0
  **/
 
